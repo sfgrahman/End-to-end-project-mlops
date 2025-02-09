@@ -1,0 +1,4 @@
+2025-02-09 09:52:31,536 - werkzeug - WARNING -  * Debugger is active!
+2025-02-09 09:52:31,546 - werkzeug - INFO -  * Debugger PIN: 107-304-100
+2025-02-09 09:52:36,126 - root - INFO - Error  occured in python script name [C:\Users\sfg\mlops_practice\End-to-end-project-mlops\app.py] line number [11] error message [Testing custom exception]
+2025-02-09 09:52:36,127 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2025 09:52:36] "GET / HTTP/1.1" 200 -
