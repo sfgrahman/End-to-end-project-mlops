@@ -1,0 +1,6 @@
+README.md
+setup.py
+MLOps_End_To_End_Project.egg-info/PKG-INFO
+MLOps_End_To_End_Project.egg-info/SOURCES.txt
+MLOps_End_To_End_Project.egg-info/dependency_links.txt
+MLOps_End_To_End_Project.egg-info/top_level.txt

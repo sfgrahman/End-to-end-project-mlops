@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: MLOps_End_To_End_Project
+Version: 0.0.1
+Summary: Machine Learning Operations end to end project
+Home-page: https://github.com/sfgrahman
+Author: Moududur Shamim
+Author-email: sfgrahman35@gmail.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: summary
