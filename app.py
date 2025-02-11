@@ -38,4 +38,4 @@ def prediction_data():
             return render_template("results.html", final_result = "Your Yearly Income is More than 50k:{}".format(result) )
     
 if __name__ == "__main__":
-     app.run(debug = True)
+     app.run(host="0.0.0.0",debug = True)
