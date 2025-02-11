@@ -8,7 +8,9 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from src.utils import save_object
+from dataclasses import dataclass
 
+@dataclass
 class DataTransformationConfig:
     preprocess_obj_file_path = os.path.join("artifacts/data_transformation", "preprocessor.pkl")
 
@@ -48,7 +50,7 @@ class DataTransformation:
             upper_limit = int(Q3+1.5*iqr)
             lower_limit = int(Q1-1.5*iqr)
             df.loc[(df[col]>upper_limit),col] = upper_limit
-            df.loc[(df[col]>lower_limit),col] = lower_limit
+            df.loc[(df[col]<lower_limit),col] = lower_limit
             
             return df
         except Exception as e:
